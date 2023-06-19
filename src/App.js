@@ -1,4 +1,5 @@
 import "./App.css";
+import logo from "./img/ellipse.png";
 
 function App() {
     return (
@@ -10,23 +11,19 @@ function App() {
                 </div>
                 {/* header */}
                 <div className="header__main">
-                    <img
-                        className="header__img"
-                        src="./img/Ellipse.svg"
-                        alt="logo"
-                    />
-                    {/* <div className="header__title">
+                    <img className="header__img" src={logo} alt="logo" />
+                    <p className="header__title">
                         Chef1to1 — компания по продаже премиальной посуды,
                         пренадлежностей и устроиств для кухни, ресторанов,
-                        кофейн
-                    </div> */}
-                    {/* <div className="social">
+                        кофеен
+                    </p>
+                    <div className="social">
                         <div className="social__btn">
                             <div className="social__btn-tlg"></div>
                             <div className="social__btn-wsp"></div>
                             <div className="social__btn-ggl"></div>
                         </div>
-                    </div> */}
+                    </div>
 
                     {/* <div className="menu">
                         <p className="menu__title">information about btns</p>

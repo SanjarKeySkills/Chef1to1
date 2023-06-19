@@ -33,15 +33,21 @@
 .header__main {
 	margin-top: 24px;
 	display: flex;
+	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+	width: 100%;
 }
 
 .header__img {
-	width: 200px;
-	height: 200px;
+	margin-bottom: 24px
 }
 
-
+.header__title {
+	width: 452px;
+	height: 56px;
+	text-align: left;
+}
 
 
 /* Menu */
@@ -55,4 +61,3 @@
 .menu__btn {
 	width: 200px;
 } */
-
