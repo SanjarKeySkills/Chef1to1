@@ -18,24 +18,26 @@ function App() {
                         кофеен
                     </p>
                     <div className="social">
-                        <div className="social__btn">
-                            <div className="social__btn-tlg"></div>
-                            <div className="social__btn-wsp"></div>
-                            <div className="social__btn-ggl"></div>
-                        </div>
+                        <button className="social__btn social__btn-tlg"></button>
+                        <button className="social__btn social__btn-wsp"></button>
+                        <button className="social__btn social__btn-ggl"></button>
                     </div>
 
-                    {/* <div className="menu">
-                        <p className="menu__title">information about btns</p>
-                        <div className="menu__items">
-                            <button className="menu__btn">100%Chef</button>
-                            <button className="menu__btn">Artilugis</button>
-                            <button className="menu__btn">PORDAMSA</button>
-                            <button className="menu__btn">Costa Verde</button>
-                            <button className="menu__btn">Vista Alegre</button>
-                            <button className="menu__btn">IRABIA</button>
-                        </div> */}
-                    {/* </div> */}
+                    <div className="catalogs">
+                        <p className="catalog__title">Наши каталоги</p>
+                        <div className="catalog__items">
+                            <button className="catalog__btn">100%Chef</button>
+                            <button className="catalog__btn">Artilugis</button>
+                            <button className="catalog__btn">PORDAMSA</button>
+                            <button className="catalog__btn">
+                                Costa Verde
+                            </button>
+                            <button className="catalog__btn">
+                                Vista Alegre
+                            </button>
+                            <button className="catalog__btn">IRABIA</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
