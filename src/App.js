@@ -13,9 +13,9 @@ function App() {
                 <div className="header__main">
                     <img className="header__img" src={logo} alt="logo" />
                     <p className="header__title">
-                        Chef1to1 — компания по продаже премиальной посуды,
-                        пренадлежностей и устроиств для кухни, ресторанов,
-                        кофеен
+                        Primer Chef1to1 — компания по продаже премиальной
+                        посуды, пренадлежностей и устроиств для кухни,
+                        ресторанов, кофеен
                     </p>
                     <div className="social">
                         <button className="social__btn social__btn-tlg"></button>
